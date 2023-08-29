@@ -14,17 +14,17 @@ const assignment = {};
  * @param {Number} destination is the stopping number
  * @returns number the sum of the numbers from 1 to destination
  */
-function sumOfNumbersTo(destination) {
+function sumOfNumbersTo(destination_2) {
   let sum = 0;
-  for (let y = 1; y <= destination; y++) {
+  for (let y = 1; y <= destination_2; y++) {
     sum += y;
       
   }
   return sum;
 }
-const destination = 6;
-const result = sumOfNumbersTo(destination);
-console.log(result);
+const destination_2 = 35;
+const result_2 = sumOfNumbersTo(destination_2);
+console.log(result_2);
 
 
 assignment.sumOfNumbersTo = sumOfNumbersTo;
@@ -60,7 +60,7 @@ function countEvenNumbersWithin(destination) {
 }
 
 // Example usage
-const destination = 10;
+const destination = 12;
 const result = countEvenNumbersWithin(destination);
 console.log("Count of even numbers:", result.count);
 console.log("Sum of even numbers:", result.sum);
